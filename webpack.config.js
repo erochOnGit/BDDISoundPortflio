@@ -15,6 +15,10 @@ let config = {
       {
         test: /\.(js|jsx)$/,
         use: "babel-loader"
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   },

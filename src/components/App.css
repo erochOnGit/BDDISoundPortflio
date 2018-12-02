@@ -1,0 +1,9 @@
+body {
+  margin: unset;
+}
+
+#app,
+#app > div {
+  height: 100%;
+  width: 100%;
+}
